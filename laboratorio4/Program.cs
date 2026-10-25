@@ -15,8 +15,10 @@ class Program
         Console.WriteLine("\nSubcadena: " + subcadena);
 
         // Buscar una palabra
-        int posicion = texto.IndexOf("laboratorio");
-        Console.WriteLine("Posicion de laboratorio: " + posicion);
+        int posicion = texto.IndexOf(
+           "laboratorio",
+           StringComparison.OrdinalIgnoreCase
+        );
 
         // Reemplazar una palabra
         string reemplazo = texto.Replace("laboratorio", "curso");

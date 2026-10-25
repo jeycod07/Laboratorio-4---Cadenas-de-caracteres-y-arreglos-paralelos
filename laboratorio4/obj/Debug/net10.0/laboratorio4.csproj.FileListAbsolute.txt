@@ -12,3 +12,4 @@ C:\Users\W10\Documents\Laboratorio 4\laboratorio4\obj\Debug\net10.0\refint\labor
 C:\Users\W10\Documents\Laboratorio 4\laboratorio4\obj\Debug\net10.0\laboratorio4.pdb
 C:\Users\W10\Documents\Laboratorio 4\laboratorio4\obj\Debug\net10.0\laboratorio4.genruntimeconfig.cache
 C:\Users\W10\Documents\Laboratorio 4\laboratorio4\obj\Debug\net10.0\ref\laboratorio4.dll
+C:\Users\W10\Documents\Laboratorio 4\laboratorio4\obj\Debug\net10.0\laboratorio4.sourcelink.json
