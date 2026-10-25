@@ -94,7 +94,7 @@ class Program
         Console.WriteLine("\n=== BUSQUEDA POR CIUDAD ===");
 
         Console.Write("\nIngrese la ciudad a buscar: ");
-        string ciudadBuscar = Console.ReadLine() ?? "";
+        string ciudadBuscar = (Console.ReadLine() ?? "").Trim();
 
         bool ciudadEncontrada = false;
 
