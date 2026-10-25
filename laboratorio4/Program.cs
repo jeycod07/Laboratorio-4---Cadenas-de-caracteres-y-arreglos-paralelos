@@ -121,8 +121,9 @@ class Program
         // ORDENAMIENTO ALFABETICO DE USUARIOS
         Console.WriteLine("\n=== USUARIOS ORDENADOS ALFABETICAMENTE ===");
 
+        
         var usuariosOrdenados = usuarios
-            .OrderBy(u => u.Nombre)
+            .OrderBy(u => u.Nombre, StringComparer.OrdinalIgnoreCase)
             .ToList();
 
         foreach (var usuario in usuariosOrdenados)
