@@ -49,7 +49,7 @@ class Program
 
         // Buscar una persona por nombre
         Console.Write("\nIngrese el nombre a buscar: ");
-        string buscar = Console.ReadLine() ?? "";
+        string buscar = (Console.ReadLine() ?? "").Trim();
 
         bool encontrado = false;
 
